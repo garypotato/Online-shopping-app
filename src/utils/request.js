@@ -8,6 +8,7 @@ function get(url) {
     method: "GET",
     headers: headers
   }).then(response => {
+    console.log(response)
     return handleResponse(url, response);
   }).catch(error => {
     console.error(`Request failed. Url = ${url}. Message = ${error}`)

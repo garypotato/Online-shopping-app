@@ -19,7 +19,7 @@ class ProductDetail extends Component {
     const { product, relatedShop } = this.props;
     return (
       <div>
-        <Header title="团购详情" onBack={this.handleBack} grey />
+        <Header title="Product Detail" onBack={this.handleBack} grey />
         {product && <ProductOverview data={product} />}
         {relatedShop && (
           <ShopInfo data={relatedShop} total={product.shopIds.length} />

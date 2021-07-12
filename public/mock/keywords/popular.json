@@ -1,11 +1,11 @@
 [
-  { "id": "k-1", "keyword": "三里屯" },
-  { "id": "k-2", "keyword": "朝阳大悦城" },
-  { "id": "k-3", "keyword": "西单" },
-  { "id": "k-4", "keyword": "海底捞" },
-  { "id": "k-5", "keyword": "星巴克" },
-  { "id": "k-6", "keyword": "局气" },
-  { "id": "k-7", "keyword": "火锅" },
-  { "id": "k-8", "keyword": "温泉" },
-  { "id": "k-9", "keyword": "烤鸭" }
+  { "id": "k-1", "keyword": "North Sydney" },
+  { "id": "k-2", "keyword": "Darling Harbour" },
+  { "id": "k-3", "keyword": "Western Sydney" },
+  { "id": "k-4", "keyword": "Steackhouse" },
+  { "id": "k-5", "keyword": "Starbucks" },
+  { "id": "k-6", "keyword": "Fish and Chips" },
+  { "id": "k-7", "keyword": "Pizza" },
+  { "id": "k-8", "keyword": "Onsen" },
+  { "id": "k-9", "keyword": "BBQ" }
 ]

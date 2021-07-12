@@ -4,6 +4,7 @@ import { get } from "../../utils/request"
 export const FETCH_DATA = 'FETCH DATA'
 
 export default store => next => action => {
+
   const callAPI = action[FETCH_DATA]
   if(typeof callAPI === 'undefined') {
     return next(action)
@@ -11,16 +12,16 @@ export default store => next => action => {
 
   const { endpoint, schema, types } = callAPI
   if(typeof endpoint !== 'string') {
-    throw new Error('endpoint必须为字符串类型的URL')
+    throw new Error('endpoint must be a string type URL')
   }
   if(!schema) {
-    throw new Error('必须指定领域实体的schema')
+    throw new Error('undefined schema')
   }
   if(!Array.isArray(types) && types.length !== 3) {
-    throw new Error('需要指定一个包含了3个action type的数组')
+    throw new Error('must be an array with 3 action types')
   }
   if(!types.every(type => typeof type === 'string')) {
-    throw new Error('action type必须为字符串类型')
+    throw new Error('action type must be string type')
   }
 
   const actionWith = data => {
@@ -39,7 +40,7 @@ export default store => next => action => {
     })),
     error => next(actionWith({
       type: failureType,
-      error: error.message || '获取数据失败'
+      error: error.message || 'data fetching failed'
     }))
   )
 }

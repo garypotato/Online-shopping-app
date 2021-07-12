@@ -23,19 +23,19 @@ class ProductOverview extends Component {
           </div>
         </div>
         <div className="productOverview__purchase">
-          <span className="productOverview__symbol">¥</span>
+          <span className="productOverview__symbol">$</span>
           <span className="productOverview__price">{currentPrice}</span>
-          <span className="productOverview__price--old">¥{oldPrice}</span>
-          <Link className="productOverview__btn" to={`/purchase/${id}`}>立即购买</Link>
+          <span className="productOverview__price--old">${oldPrice}</span>
+          <Link className="productOverview__btn" to={`/purchase/${id}`}>Buy now</Link>
         </div>
         <ul className="productOverview__remark">
           <li className="productOverview__remarkItem">
             <i className="productOverview__sign1" />
-            <span className="productOverview__desc">随时可退</span>
+            <span className="productOverview__desc">Refund in 7 days</span>
           </li>
           <li className="productOverview__remarkItem">
             <i className="productOverview__sign2" />
-            <span className="productOverview__desc">过期自动退</span>
+            <span className="productOverview__desc">Book in</span>
           </li>
         </ul>
       </div>

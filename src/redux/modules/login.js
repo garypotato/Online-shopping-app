@@ -24,7 +24,7 @@ export const actions = {
       if (
         !(username && username.length > 0 && password && password.length > 0)
       ) {
-        return dispatch(loginFailure("用户名和秘密不能为空！"));
+        return dispatch(loginFailure("Invalid username or password"));
       }
       dispatch(loginRequest());
       return new Promise((resolve, reject) => {

@@ -8,8 +8,8 @@ class SearchHeader extends Component {
       <header className="searchHeader">
         <div className="searchHeader__back" onClick={onBack}></div>
         <div className="searchHeader__list">
-          <span className="searchHeader__item searchHeader__item--selected">商户</span>
-          <span className="searchHeader__item">闪惠团购</span>
+          <span className="searchHeader__item searchHeader__item--selected">shops</span>
+          <span className="searchHeader__item">discount</span>
         </div>
         <div className="searchHeader__icon" onClick={onSearch}></div>
       </header>

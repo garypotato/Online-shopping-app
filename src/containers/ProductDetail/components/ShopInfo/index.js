@@ -8,7 +8,7 @@ class ShopInfo extends Component {
     return (
       <div className="shopInfo">
         <div className="shopInfo__header">
-          使用商户（{total}）
+          Shop（{total}）
           <span className="shopInfo__arrow" />
         </div>
         <div className="shopInfo__middle">

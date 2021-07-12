@@ -13,7 +13,7 @@ import OrderItem from "../../components/OrderItem";
 import Confirm from "../../../../components/Confirm";
 import "./style.css";
 
-const tabTitles = ["全部订单", "待付款", "可使用", "退款/售后"];
+const tabTitles = ["All Purchase", "Shopping Cart", "Purchased", "Refund"];
 
 class UserMain extends Component {
   render() {
@@ -76,8 +76,8 @@ class UserMain extends Component {
     return (
       <div className="userMain__empty">
         <div className="userMain__emptyIcon" />
-        <div className="userMain__emptyText1">您还没有相关订单</div>
-        <div className="userMain__emptyText2">去逛逛看有哪些想买的</div>
+        <div className="userMain__emptyText1">You don't have any orders</div>
+        <div className="userMain__emptyText2">Start shopping</div>
       </div>
     );
   };
@@ -89,9 +89,9 @@ class UserMain extends Component {
     } = this.props;
     return (
       <Confirm
-        content="确定删除该订单吗？"
-        cancelText="取消"
-        confirmText="确定"
+        content="Confirm to delete order"
+        cancelText="Cancel"
+        confirmText="Confirm"
         onCancel={hideDeleteDialog}
         onConfirm={removeOrder}
       />
