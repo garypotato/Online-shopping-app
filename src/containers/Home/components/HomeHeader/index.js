@@ -7,7 +7,7 @@ class HomeHeader extends Component {
     return (
       <div className="homeHeader">
         <header className="homeHeader__wrapper">
-          <a className="homeHeader__city">Sydney</a>
+          <span className="homeHeader__city">Sydney</span>
           <Link to="/search" className="homeHeader__search">Search shop and attractions</Link>
           <Link to="/user" className="homeHeader__self">
             <div className="homeHeader__portrait"/>

@@ -1,9 +1,10 @@
+/* eslint-disable import/no-anonymous-default-export */
 import { get } from "../../utils/request"
 
 //经过中间件处理的action所具有的标识
 export const FETCH_DATA = 'FETCH DATA'
 
-export default store => next => action => {
+export default () => next => action => {
 
   const callAPI = action[FETCH_DATA]
   if(typeof callAPI === 'undefined') {

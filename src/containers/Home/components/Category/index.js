@@ -48,11 +48,11 @@ const dataSource = [
   ],
   [
     {
-      name: "NSW service",
+      name: "NSW",
       src: "https://www.dpfile.com/sc/eleconfig/20170308125500community_new.png"
     },
     {
-      name: "Attractopms",
+      name: "Attractions",
       src: "https://www.dpfile.com/sc/eleconfig/20160126205135jingguan.png"
     },
     {
@@ -60,11 +60,11 @@ const dataSource = [
       src: "https://www.dpfile.com/sc/eleconfig/20160126203742aiche.png"
     },
     {
-      name: "Fintness",
+      name: "Fitness",
       src: "https://www.dpfile.com/sc/eleconfig/20160126203617jianshen.png"
     },
     {
-      name: "Shopping",
+      name: "Shop",
       src: "https://www.dpfile.com/sc/eleconfig/20160314121215icongouwu135.png"
     },
     {
@@ -76,7 +76,7 @@ const dataSource = [
       src: "https://www.dpfile.com/sc/eleconfig/20160126203812daojia.png"
     },
     {
-      name: "Furnitures",
+      name: "Furniture",
       src: "https://www.dpfile.com/sc/eleconfig/20161213162031zhuangxiu.png"
     },
     {
@@ -84,7 +84,7 @@ const dataSource = [
       src: "https://www.dpfile.com/gp/cms/1455525720807.png"
     },
     {
-      name: "Health",
+      name: "He",
       src: "https://www.dpfile.com/sc/eleconfig/20160126204327yiliao.png"
     }
   ],
