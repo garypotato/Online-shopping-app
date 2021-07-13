@@ -11,7 +11,7 @@
   "oldPrice": 48,
   "saleDesc": "Sold 6034",
   "detail":{
-      "category": "饮品",
+      "category": "Drink",
       "products":[{"name":"Raw Beef Tartare Bibimbap", "quantity":"1", "price":"$48"}],
       "remark":"Free Wifi"
   },

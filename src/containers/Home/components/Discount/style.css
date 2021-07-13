@@ -1,106 +1,139 @@
 .discount {
-  border-bottom: 10px solid #f0f0f0;
   padding: 7px 6px 10px;
+
+  border-bottom: 10px solid #f0f0f0;
   background-color: #fff;
 }
 
 .discount__header {
-  display: block;
-  position: relative;
-  height: 32px;
   line-height: 32px;
+
+  position: relative;
+
+  display: block;
+
+  height: 32px;
   padding-bottom: 5px;
   padding-left: 3px;
 }
 
 .discount__title {
-  display: inline-block;
-  height: 30px;
-  width: 75px;
   font-size: 18px;
-  color: #f63;
   font-weight: bold;
+
+  display: inline-block;
+
+  width: 75px;
+  height: 30px;
+
+  color: #f63;
 }
 
 .discount__more {
   font-size: 12px;
+
   float: right;
+
   padding-right: 18px;
-  color: #bbb;
+
+  color: rgb(138, 136, 136);
 }
 
 .discount__arrow {
   position: absolute;
-  right: 5px;
   top: 50%;
-  margin-top: -8px;
-  border: 2px solid #bbb;
-  transform: rotate(45deg);
+  right: 5px;
+
   width: 8px;
   height: 8px;
+  margin-top: -8px;
+
+  transform: rotate(45deg);
+  transform: rotate(45deg);
+
+  border: 2px solid #bbb;
   border-bottom: none;
   border-left: none;
-  transform: rotate(45deg);
 }
 
 .discount__content {
+  display: flex;
+  overflow: auto;
+  align-items: center;
+  flex: 1 1 0;
+  flex-wrap: nowrap;
+
   padding-bottom: 5px;
 }
 
 .discount__item {
   display: inline-block;
-  width: 33%;
+
   box-sizing: border-box;
+  /* width: 33%; */
   padding: 0 4px;
 }
 
 .discount__itemPic {
+  width: 140px;
   height: 80px;
 }
 
 .discount__itemTitle {
-  color: #333;
   font-size: 14px;
-  padding-top: 3px;
+
   overflow: hidden;
+
+  padding-top: 3px;
+
   white-space: nowrap;
   text-overflow: ellipsis;
+
+  color: #333;
 }
 
 .discount__itemPriceWrapper {
-  line-height: 16px;
-  height: 16px;
   font-size: 0;
-  padding-top: 5px;
+  line-height: 16px;
+
   position: relative;
+
+  height: 16px;
+  padding-top: 5px;
 }
 
-.discount__itemCurrentPrice{
-  color: #f63;
-  text-decoration: none;
+.discount__itemCurrentPrice {
   font-size: 20px;
+
+  text-decoration: none;
+
+  color: #f63;
 }
 
-.discount__itemCurrentPrice{
-  color: #f63;
-  text-decoration: none;
+.discount__itemCurrentPrice {
   font-size: 20px;
+
+  text-decoration: none;
+
+  color: #f63;
 }
 
 .discount__itemCurrentPrice::before {
-  content: '\A5';
   font-size: 14px;
+
+  content: '\A5';
 }
 
-.discount__itemOldPrice{
-  color: #999;
+.discount__itemOldPrice {
   font-size: 12px;
+
   margin-left: 2px;
+
+  color: #999;
 }
 
 .discount__itemOldPrice::before {
-  content: '\A5';
   font-size: 14px;
+
+  content: '\A5';
 }
-
-

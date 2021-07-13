@@ -14,7 +14,7 @@ const dataSource = [
       src: "https://www.dpfile.com/sc/eleconfig/20160126203337jiudian.png"
     },
     {
-      name: "Entertainment",
+      name: "Alcohol",
       src: "https://www.dpfile.com/sc/eleconfig/20160126202841xiuxianyule.png"
     },
     {
@@ -90,7 +90,7 @@ const dataSource = [
   ],
   [
     {
-      name: "Street Food",
+      name: "Fast Food",
       src:
         "https://www.dpfile.com/sc/eleconfig/20160204173331xiaochikuaican.png"
     },
@@ -103,7 +103,7 @@ const dataSource = [
       src: "https://www.dpfile.com/sc/eleconfig/20160415121719rihanliaoli.png"
     },
     {
-      name: "Hair salon",
+      name: "Hair",
       src: "https://www.dpfile.com/sc/eleconfig/20160316142804meifa.png"
     },
     {
@@ -119,11 +119,11 @@ const dataSource = [
       src: "https://www.dpfile.com/sc/eleconfig/20160316143316shoushen.png"
     },
     {
-      name: "Photography",
+      name: "Photo",
       src: "https://www.dpfile.com/sc/eleconfig/20160316143612qinzisheying.png"
     },
     {
-      name: "Children's playground",
+      name: "Playground",
       src: "https://www.dpfile.com/sc/eleconfig/20160316143656qinziyoule.png"
     },
     {
