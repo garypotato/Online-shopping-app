@@ -23,7 +23,7 @@ class LikeList extends Component {
         {pageCount < 3 ? (
           <Loading />
         ) : (
-          <a className="likeList__viewAll">More</a>
+          <span className="likeList__viewAll">More</span>
         )}
       </div>
     );
@@ -55,8 +55,7 @@ class LikeList extends Component {
 
   // 处理屏幕滚动事件，实现加载更多的效果
   handleScroll = () => {
-    const scrollTop =
-      document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollTop =document.documentElement.scrollTop || document.body.scrollTop;
     const screenHeight = document.documentElement.clientHeight;
     const likeListTop = this.myRef.current.offsetTop;
     const likeListHeight = this.myRef.current.offsetHeight;

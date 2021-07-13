@@ -7,11 +7,11 @@ class Discount extends Component {
     const { data } = this.props;
     return (
       <div className="discount">
-        <a className="discount__header">
+        <span className="discount__header">
           <span className="discount__title">Voucher</span>
           <span className="discount__more">More voucher</span>
           <span className="discount__arrow" />
-        </a>
+        </span>
         <div className="discount__content">
           {data.map((item, index) => {
             return (

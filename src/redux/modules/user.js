@@ -68,7 +68,7 @@ export const actions = {
   // 获取订单列表
   loadOrders: () => {
     return (dispatch, getState) => {
-      const { ids, fetched } = getState().user.orders;
+      const { fetched } = getState().user.orders;
       if(fetched) {
         return null
       }

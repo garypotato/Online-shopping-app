@@ -56,9 +56,9 @@ class PurchaseForm extends Component {
             <span className="purchaseForm__desc">refundable even discount has overdue</span>
           </li>
         </ul>
-        <a className="purchaseForm__submit" onClick={this.handleClick}>
+        <span className="purchaseForm__submit" onClick={this.handleClick}>
           Submit
-        </a>
+        </span>
       </div>
     );
   }
