@@ -13,7 +13,7 @@ class Banner extends Component {
         </div>
         <div className='banner__btns'>
           <a className='banner__btn' href='https://www.linkedin.com/feed/'>Review my profile</a>
-          <a className='banner__btn banner__btn--bg' href='https://m.dianping.com/download/redirect?id=11186'>Download App</a>
+          <a className='banner__btn banner__btn--bg' href='https://github.com/garypotato/mobile_App'>GitHub</a>
         </div>
       </header>
     )
