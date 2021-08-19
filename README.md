@@ -95,3 +95,5 @@ function handleResponse(url, response) {
 
 export {get, post}
 ```
+
+# auto load
