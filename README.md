@@ -9,8 +9,44 @@ I always use Function Components in web development, in this app I used `Class C
 `useContext` + `useReducer` is becoming more and more popular but I stick with `Redux` since I wanted to have customzied Redux-middleware in this app, which allows me to do something before a action arrives Reducer.
 
 # Redux Middelware
-## reason
+## reason: 1. too many fetch and too many same logic 2.simpliced code
 ## how
+1. define an action
+```
+{
+  [FETCH_DATA]: {
+    types: [
+      types.FETCH_LIKES_REQUEST,
+      types.FETCH_LIKES_SUCCESS,
+      types.FETCH_LIKES_FAILURE
+    ],
+    endpoint,
+    schema
+  }
+}
+```
+2. check the action in middleware
+```
+const callAPI = action[FETCH_DATA]
+  if(typeof callAPI === 'undefined') {
+    return next(action)
+  }
+
+  const { endpoint, schema, types } = callAPI
+  if(typeof endpoint !== 'string') {
+    throw new Error('endpoint must be a string type URL')
+  }
+  if(!schema) {
+    throw new Error('undefined schema')
+  }
+  if(!Array.isArray(types) && types.length !== 3) {
+    throw new Error('must be an array with 3 action types')
+  }
+  if(!types.every(type => typeof type === 'string')) {
+    throw new Error('action type must be string type')
+  }
+```
+3. 增強中間件
 
 # Data structure
 ## reason 
