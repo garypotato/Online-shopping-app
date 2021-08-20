@@ -7,7 +7,7 @@ I always use Function Components in web development, in this app I used `Class C
 Please visit this app in `Mobile Mode` :point_right: https://main.d24qeurrp3ff0q.amplifyapp.com/ 
 
 # UI 
-This is the home page of this app. I like the user interface as it is simple and easy to understand. 
+This is the home page of this app. I like the user interface as it is simple and easy to understand.  
 ![1](https://user-images.githubusercontent.com/72715709/130181184-7056fc64-20f5-4cf0-aef8-0417fc92f5f5.gif)
 
 # Mock Data
@@ -33,7 +33,10 @@ Array allows me to map and re-structure the data easily. The new data stored in 
 ![WeChat Screenshot_20210820151509](https://user-images.githubusercontent.com/72715709/130182911-48a6767d-226e-4e53-83ff-fbdc57efd234.png)  
 `Object` allows me to use `Object.keys()` or `Object.values()` to get whatever I need. The data structure of `shops` and `orders` will be the same. 
 
-## url
+## Fetch API
+
+
+
 
 # Why React-redux
 `useContext` + `useReducer` is becoming more and more popular but I stick with `React-redux`. It provides many API can make the code more readable and easy to understand. `Connet()` can easily connect the React component to Redux which is awesome for this application.
