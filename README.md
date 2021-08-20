@@ -118,7 +118,7 @@ user - user's order
 # Redux Middelware
 The reason I used `redux-middleware` is `DRY Priciple`. In this app, same logic will go again and again and I am tired of writing the same code. Another important thing is it is hard to maintain so I decieded to use `middleware`.
 ## define an action
-The action is named in `[FETCH_DATA]`. `endpoint` will be the `url` while the `schema` descript the shape of the data will be.
+The action is named in `[FETCH_DATA]`. `endpoint` will be the `url` while the `schema` describes the shape of the data will be.
 ```
 {
   [FETCH_DATA]: {
