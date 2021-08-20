@@ -177,7 +177,7 @@ const actionWith = data => {
   )
 ```
 
-# increase user experience
+# Enhance user experience
 when user scroll to the bottom, it will immediately fetch new data.
 ![2](https://user-images.githubusercontent.com/72715709/130226029-43dd0007-fcc9-441a-ba92-0f8a6c87b010.gif)
 
