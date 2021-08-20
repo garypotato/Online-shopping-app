@@ -154,7 +154,7 @@ const callAPI = action[FETCH_DATA]
     throw new Error('action type must be string type')
   }
 ```
-## create action creator
+## pass to next middleware
 ```
 const actionWith = data => {
     const finalAction = {...action, ...data}
