@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/Build-React-green)
 ![](https://img.shields.io/badge/Build-Redux-green)
 ![](https://img.shields.io/badge/Build-React--redux-yellowgreen)  
-The purpose of developing this app is practising `Redux-middleware`.   
+The purpose of developing this `SPA` app is practising `Redux-middleware`.   
 I always use Function Components in web development, in this app I used `Class Component` because I believe some developers are still using it so it is a good opportunity to do some practice.  
 Please visit this app in `Mobile Mode` :point_right: https://main.d24qeurrp3ff0q.amplifyapp.com/ 
 
