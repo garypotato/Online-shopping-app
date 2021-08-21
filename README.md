@@ -66,7 +66,6 @@ function post(url, data) {
 ```
 What I need to just make sure is that it provide and accept entities as `JSON`.
 
-
 # Why React-redux
 `useContext` + `useReducer` is becoming more and more popular but I stick with `React-redux`. It provides many API can make the code more readable and easy to understand. `Connet()` can easily connect the React component to Redux which is awesome for this application.
 
@@ -180,4 +179,7 @@ const actionWith = data => {
 # Enhance user experience
 when user scroll to the bottom, it will immediately fetch new data.
 ![2](https://user-images.githubusercontent.com/72715709/130226029-43dd0007-fcc9-441a-ba92-0f8a6c87b010.gif)
+
+# AWS Amplify
+The most important reason I am using `AWS Amplify` is it's easy to use. The Amplify Console provides a continuous delivery and hosting service for web applications, which means front-end developer doesn't need to know much about web app deployment while `AWS Amplify` will do everything for you.
 
